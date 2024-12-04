@@ -1,0 +1,640 @@
+@import "default";
+
+.hero-section {
+    .inner-container {
+        .content-container {
+            padding: 260px 0 0 0;
+
+            .content-wrapper {
+                width: 800px;
+                h2 {
+                    font-size: 50px;
+                    line-height: 50px;
+    
+                    span {
+                        font-family: $Arctic-REGV;
+                    }
+                }
+
+                h3 {
+                    font-size: 40px;
+                    line-height: 40px;
+                    letter-spacing: -3px;
+                    margin: 40px 0 0 0;
+                }
+    
+                p {
+                    margin: 30px 0 0 0;
+                }
+
+                ul {
+                    margin: 30px 0 0 20px;
+                }
+            }
+        }
+    }
+}
+
+.hero-black-section {
+    mix-blend-mode: exclusion;
+
+    .inner-container {
+        .content-container {
+            padding: 0 0 150px 0;
+
+            .content-wrapper {
+                width: 800px;
+                h2 {
+                    font-size: 50px;
+                    line-height: 50px;
+                    color: #FFFFFF;
+    
+                    span {
+                        font-family: $Arctic-REGV;
+                    }
+                }
+
+                h3 {
+                    font-size: 40px;
+                    line-height: 40px;
+                    letter-spacing: -3px;
+                    margin: 40px 0 0 0;
+                    color: #FFFFFF;
+                }
+    
+                p {
+                    margin: 30px 0 0 0;
+                    color: #FFFFFF;
+                }
+
+                ul {
+                    margin: 30px 0 0 20px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+
+/*1440px above screen CSS starts here*/
+@media only screen and (min-width: 1440px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 370px 0 0 0;
+    
+                .content-wrapper {
+                    width: 925px;
+                    h2 {
+                        font-size: 60px;
+                        line-height: 60px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 50px;
+                        line-height: 50px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 30px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 30px 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 150px 0;
+    
+                .content-wrapper {
+                    width: 925px;
+                    h2 {
+                        font-size: 60px;
+                        line-height: 60px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 50px;
+                        line-height: 50px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 30px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 30px 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+/*1660px above screen CSS starts here*/
+@media only screen and (min-width: 1660px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 370px 0 0 0;
+    
+                .content-wrapper {
+                    width: 1145px;
+                    h2 {
+                        font-size: 70px;
+                        line-height: 70px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 60px;
+                        line-height: 72px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 30px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 30px 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 150px 0;
+    
+                .content-wrapper {
+                    width: 1145px;
+                    h2 {
+                        font-size: 70px;
+                        line-height: 70px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 60px;
+                        line-height: 72px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 30px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 30px 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+/*1920px above screen CSS starts here*/
+@media only screen and (min-width: 1920px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 370px 0 0 0;
+    
+                .content-wrapper {
+                    width: 1356px;
+                    h2 {
+                        font-size: 80px;
+                        line-height: 80px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 60px;
+                        line-height: 72px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 40px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 40px 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 150px 0;
+    
+                .content-wrapper {
+                    width: 1356px;
+                    h2 {
+                        font-size: 80px;
+                        line-height: 80px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 60px;
+                        line-height: 72px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 40px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 40px 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+/*2560px above screen CSS starts here*/
+@media only screen and (min-width: 2560px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 370px 0 0 0;
+    
+                .content-wrapper {
+                    width: 1868px;
+                    h2 {
+                        font-size: 80px;
+                        line-height: 80px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 70px;
+                        line-height: 84px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 40px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 40px 0 0 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 150px 0;
+    
+                .content-wrapper {
+                    width: 1868px;
+                    h2 {
+                        font-size: 80px;
+                        line-height: 80px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 70px;
+                        line-height: 84px;
+                        letter-spacing: -3px;
+                        margin: 60px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 40px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 40px 0 0 28px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+/*Below 1024px screen CSS starts here*/
+@media only screen and (max-width: 1024px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 228px 0 0 0;
+    
+                .content-wrapper {
+                    width: 760px;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 36px;
+                        line-height: 36px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 26px;
+                        line-height: 26px;
+                        letter-spacing: -2px;
+                        margin: 40px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 20px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 20px 0 0 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 60px 0;
+    
+                .content-wrapper {
+                    width: 760px;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 36px;
+                        line-height: 36px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 26px;
+                        line-height: 26px;
+                        letter-spacing: -2px;
+                        margin: 40px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 20px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 20px 0 0 28px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*Below 768px screen CSS starts here*/
+@media only screen and (max-width: 768px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 170px 0 0 0;
+    
+                .content-wrapper {
+                    width: 100%;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 31px;
+                        line-height: 32px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 25px;
+                        line-height: 30px;
+                        letter-spacing: -2px;
+                        margin: 50px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 20px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 20px 0 0 16px;
+                        
+                        li {
+                            font-size: 17px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 60px 0;
+    
+                .content-wrapper {
+                    width: 100%;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 31px;
+                        line-height: 32px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 25px;
+                        line-height: 30px;
+                        letter-spacing: -2px;
+                        margin: 50px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 20px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 20px 0 0 16px;
+                        
+                        li {
+                            font-size: 17px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*Below 360px screen CSS starts here*/
+@media only screen and (max-width: 360px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 160px 0 0 0;
+    
+                .content-wrapper {
+                    width: 100%;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 25px;
+                        line-height: 26px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 24px;
+                        line-height: 28px;
+                        letter-spacing: -2px;
+                        margin: 50px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 20px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 20px 0 0 16px;
+
+                        li {
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-black-section {
+        .inner-container {
+            .content-container {
+                padding: 0 0 60px 0;
+    
+                .content-wrapper {
+                    width: 100%;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 25px;
+                        line-height: 26px;
+        
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+    
+                    h3 {
+                        font-size: 24px;
+                        line-height: 28px;
+                        letter-spacing: -2px;
+                        margin: 50px 0 0 0;
+                    }
+        
+                    p {
+                        margin: 20px 0 0 0;
+                    }
+    
+                    ul {
+                        margin: 20px 0 0 16px;
+
+                        li {
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

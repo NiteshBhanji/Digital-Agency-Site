@@ -1,0 +1,917 @@
+@import "default";
+
+.hero-section {
+    background-color: #000;
+
+    .inner-container {
+        .content-container {
+            padding: 240px 0 150px 0;
+
+            .flex-row {
+                display: flex;
+
+                .column-one {
+                    width: 40%;
+                    max-width: 100%;
+
+                    .title-text {
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 400px;
+                        color: #ffffff;
+                    }
+
+                    .content-text {
+                        margin: 5px 0 0 0;
+                        font-weight: 500;
+                        color: #ffffff;
+                    }
+
+                    .mail-box {}
+
+                    .address-box {
+                        margin: 40px 0 0 0;
+                    }
+                }
+
+                .column-two {
+                    width: 60%;
+                    max-width: 100%;
+
+                    h2 {
+                        color: #ffffff;
+
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+
+                    .desc {
+                        margin: 37px 0 0 0;
+                        color: #ffffff;
+                    }
+
+                    .form-box {
+                        margin: 30px 0 0 0;
+
+                        input,
+                        textarea {
+                            padding: 20px 0 20px 0;
+                            width: 100%;
+                            border: 0;
+                            border-bottom: 2px solid #323232;
+                            font-size: 30px;
+                            line-height: 42px;
+                            font-weight: 400;
+                            color: #ffffff;
+                            background: #000000;
+                        }
+
+                        input::placeholder,
+                        textarea::placeholder {
+                            font-family: $Grotesk-REGV;
+                            font-size: 30px;
+                            line-height: 42px;
+                            font-weight: 500;
+                            letter-spacing: -2px;
+                            color: #b6b6b6;
+                        }
+
+                        input:focus-visible,
+                        textarea:focus-visible {
+                            outline: none;
+                        }
+
+                        .terms-validation-box {
+                            margin: 30px 0 0 0;
+                            color: #ffffff;
+
+                            .btn-wrap-box {
+                                margin: 25px 0 0 0;
+
+                                label {
+                                    display: inline-block;
+                                    font-family: $Grotesk-REGV;
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    padding: 5px 25px;
+                                    border-radius: 100px;
+                                    cursor: pointer;
+                                    color: #ffffff;;
+                                    background: #000000;
+                                }
+
+                                label:hover {
+                                    color: #000000;
+                                    background: #ffffff;
+                                    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+                                }
+
+                                input[type="radio"] {
+                                    display: none;
+                                }
+
+                                input[type="radio"]:checked+label {
+                                    border: 2px solid #323232;
+                                }
+                            }
+                        }
+
+                        .submit-box {
+                            display: flex;
+                            margin: 55px 0 0 0;
+                            color: #ffff;
+
+                            input[type="submit"] {
+                                width: fit-content;
+                                font-size: 24px;
+                                line-height: 32px;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                border: 2px solid #323232;
+                                border-radius: 100px;
+                                padding: 20px 40px;
+                                cursor: pointer;
+                                color: #ffff;
+                                background: #000;
+                            }
+
+                            input[type="submit"]:hover {
+                                color: #000;
+                                background: #ffff;
+                                transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/*1440px above screen CSS starts here*/
+@media only screen and (min-width: 1440px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 250px 0 150px 0;
+
+                .flex-row {
+                    display: flex;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+
+                        .content-text {
+                            margin: 5px 0 0 0;
+                        }
+
+                        .mail-box {}
+
+                        .address-box {
+                            margin: 80px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 60%;
+                        max-width: 100%;
+
+                        h2 {}
+
+                        .desc {
+                            width: 660px;
+                            margin: 60px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 40px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 15px 0;
+                                font-size: 34px;
+                                line-height: 47px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 34px;
+                                line-height: 47px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 30px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 45px 0 0 0;
+
+                                    label {
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        font-weight: 400;
+                                        padding: 10px 35px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                margin: 50px 0 0 0;
+
+                                p {
+                                    width: 495px;
+                                    margin: 0 50px 0 0;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 24px;
+                                    line-height: 34px;
+                                    padding: 30px 60px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*1660px above screen CSS starts here*/
+@media only screen and (min-width: 1660px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 280px 0 150px 0;
+
+                .flex-row {
+                    display: flex;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 20px;
+                            line-height: 28px;
+                        }
+
+                        .content-text {
+                            margin: 5px 0 0 0;
+                        }
+
+                        .mail-box {}
+
+                        .address-box {
+                            margin: 80px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 60%;
+                        max-width: 100%;
+
+                        h2 {}
+
+                        .desc {
+                            width: 853px;
+                            margin: 60px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 50px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 15px 0;
+                                font-size: 36px;
+                                line-height: 50px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 36px;
+                                line-height: 50px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 30px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 45px 0 0 0;
+
+                                    label {
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        font-weight: 400;
+                                        padding: 10px 35px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                margin: 50px 0 0 0;
+
+                                p {
+                                    width: 495px;
+                                    margin: 0 50px 0 0;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 24px;
+                                    line-height: 34px;
+                                    padding: 30px 60px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*1660px above screen CSS starts here*/
+@media only screen and (min-width: 1920px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 320px 0 150px 0;
+
+                .flex-row {
+                    display: flex;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 22px;
+                            line-height: 30px;
+                        }
+
+                        .content-text {
+                            margin: 5px 0 0 0;
+                        }
+
+                        .mail-box {}
+
+                        .address-box {
+                            margin: 60px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 60%;
+                        max-width: 100%;
+
+                        h2 {}
+
+                        .desc {
+                            width: 853px;
+                            margin: 40px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 50px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 15px 0;
+                                font-size: 38px;
+                                line-height: 52px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 38px;
+                                line-height: 52px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 30px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 40px 0 0 0;
+
+                                    label {
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        padding: 20px 45px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                margin: 50px 0 0 0;
+
+                                p {
+                                    width: 584px;
+                                    margin: 0 60px 0 0;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 24px;
+                                    line-height: 34px;
+                                    padding: 40px 70px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*2560px above screen CSS starts here*/
+@media only screen and (min-width: 2560px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 360px 0 200px 0;
+
+                .flex-row {
+                    display: flex;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 26px;
+                            line-height: 36px;
+                        }
+
+                        .content-text {
+                            margin: 5px 0 0 0;
+                        }
+
+                        .mail-box {}
+
+                        .address-box {
+                            margin: 60px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 60%;
+                        max-width: 100%;
+
+                        h2 {}
+
+                        .desc {
+                            width: 1182px;
+                            margin: 80px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 50px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 15px 0;
+                                font-size: 38px;
+                                line-height: 52px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 38px;
+                                line-height: 52px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 50px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 40px 0 0 0;
+
+                                    label {
+                                        font-size: 38px;
+                                        line-height: 0;
+                                        padding: 40px 45px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                margin: 50px 0 0 0;
+
+                                p {
+                                    width: 1000px;
+                                    margin: 0 60px 0 0;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 38px;
+                                    line-height: 0px;
+                                    padding: 40px 70px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+/*Below 1024px screen CSS starts here*/
+@media only screen and (max-width: 1024px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 232px 0 80px 0;
+
+                .flex-row {
+                    display: flex;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 18px;
+                            line-height: 25px;
+                        }
+
+                        .content-text {
+                            margin: 2px 0 0 0;
+                        }
+
+                        .mail-box {}
+
+                        .address-box {
+                            margin: 60px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 60%;
+                        max-width: 100%;
+
+                        h2 {
+                            font-size: 36px;
+                            line-height: 36px;
+                        }
+
+                        .desc {
+                            width: 379px;
+                            margin: 25px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 5px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 10px 0;
+                                font-size: 20px;
+                                line-height: 28px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 20px;
+                                line-height: 28px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 25px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 25px 0 0 0;
+
+                                    label {
+                                        font-size: 18px;
+                                        line-height: 25px;
+                                        padding: 5px 25px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                justify-content: flex-start;
+                                margin: 28px 0 0 0;
+
+                                p {
+                                    width: 220px;
+                                    margin: 0 40px 0 0;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                    padding: 11px 37px;
+                                    cursor: pointer;
+                                    height: fit-content;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*Below 768px screen CSS starts here*/
+@media only screen and (max-width: 768px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 160px 0 80px 0;
+
+                .flex-row {
+                    display: flex;
+                    flex-direction: column-reverse;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+
+                        .content-text {
+                            margin: 5px 0 0 0;
+                        }
+
+                        .mail-box {
+                            margin: 40px 0 0 0;
+                        }
+
+                        .address-box {
+                            margin: 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 100%;
+                        max-width: 100%;
+
+                        h2 {
+                            font-size: 31px;
+                            line-height: 32px;
+                        }
+
+                        .desc {
+                            width: 300px;
+                            font-size: 16px;
+                            line-height: 24px;
+                            margin: 20px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 10px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 10px 0;
+                                font-size: 20px;
+                                line-height: 28px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 20px;
+                                line-height: 28px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 25px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 15px 0 0 0;
+
+                                    label {
+                                        font-size: 16px;
+                                        line-height: 22px;
+                                        padding: 5px 18px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                justify-content: flex-start;
+                                margin: 25px 0 0 0;
+                                flex-direction: column;
+
+                                p {
+                                    width: 100%;
+                                    margin: 0 40px 0 0;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    padding: 14px 37px;
+                                    cursor: pointer;
+                                    height: fit-content;
+                                    margin: 30px 0 0 0;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+/*Below 360px screen CSS starts here*/
+@media only screen and (max-width: 360px) {
+
+    .hero-section {
+        .inner-container {
+            .content-container {
+                padding: 160px 0 80px 0;
+
+                .flex-row {
+                    display: flex;
+                    flex-direction: column-reverse;
+
+                    .column-one {
+
+                        .title-text {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+
+                        .content-text {
+                            margin: 5px 0 0 0;
+                        }
+
+                        .mail-box {
+                            margin: 40px 0 0 0;
+                        }
+
+                        .address-box {
+                            margin: 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 100%;
+                        max-width: 100%;
+
+                        h2 {
+                            font-size: 25px;
+                            line-height: 26px;
+                        }
+
+                        .desc {
+                            width: 252px;
+                            margin: 20px 0 0 0;
+                        }
+
+                        .form-box {
+                            margin: 10px 0 0 0;
+
+                            input,
+                            textarea {
+                                padding: 15px 0 10px 0;
+                                font-size: 20px;
+                                line-height: 28px;
+                            }
+
+                            input::placeholder,
+                            textarea::placeholder {
+                                font-size: 20px;
+                                line-height: 28px;
+                            }
+
+                            .terms-validation-box {
+                                margin: 25px 0 0 0;
+
+                                .btn-wrap-box {
+                                    margin: 15px 0 0 0;
+
+                                    label {
+                                        font-size: 16px;
+                                        line-height: 22px;
+                                        padding: 5px 18px;
+                                    }
+
+                                    input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked+label {
+                                        border: 0.5px solid #323232;
+                                    }
+                                }
+                            }
+
+                            .submit-box {
+                                display: flex;
+                                justify-content: flex-start;
+                                margin: 25px 0 0 0;
+                                flex-direction: column;
+
+                                p {
+                                    width: 261px;
+                                    margin: 0 40px 0 0;
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                }
+
+                                input[type="submit"] {
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    padding: 14px 37px;
+                                    cursor: pointer;
+                                    height: fit-content;
+                                    margin: 30px 0 0 0;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

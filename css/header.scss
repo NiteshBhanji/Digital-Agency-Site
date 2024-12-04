@@ -1,0 +1,485 @@
+@import "default";
+
+.header-section {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    mix-blend-mode: exclusion;
+
+    .inner-container {
+        .content-container {
+            padding: 90px 0 0px 0;
+
+            .header-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .header-logo {
+                    h2 {
+                        font-family: $Grotesk-MDV;
+                        font-size: 20px;
+                        line-height: 20px;
+                        font-weight: 500;
+                        letter-spacing: unset;
+                        color: #ffffff;
+
+                        .thin-letter {
+                            font-family: $NeueHD-RMNV;
+                            font-weight: 100;
+                            margin: 0 8px;
+                        }
+
+                        .paux-logo {
+                            font-family: $NeueHD-RMNV;
+
+                            .colored-x {
+                                //color: #6C0CAD;
+                            }
+                        }
+                    }
+                }
+
+                .header-nav-box {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+
+                        li {
+                            font-family: $Grotesk-REGV;
+                            font-size: 18px;
+                            line-height: 23px;
+                            font-weight: 500;
+                            letter-spacing: -1px;
+                            text-transform: capitalize;
+                            border-bottom: none;
+                            margin: 0 0 0 50px;
+                            color: #ffffff;
+                        }
+
+                        li::before {
+                            display: none;
+                        }
+
+                        li:last-child a {
+                            padding: 12px 19px;
+                            border: 1px solid #ffffff;
+                            border-radius: 100px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hamMenu-Box .inner-hamMenu-Box .hamMenu ul {
+    text-align: center;
+}
+
+/*1440px above screen CSS starts here*/
+@media only screen and (min-width: 1440px) {
+    .header-section {
+        .inner-container {
+            .content-container {
+                padding: 60px 0 0px 0;
+
+                .header-wrapper {
+                    .header-logo {
+                        h2 {
+                            font-size: 22px;
+                            line-height: 22px;
+                            font-weight: 500;
+                            letter-spacing: unset;
+
+                            span {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .header-nav-box {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                font-size: 20px;
+                                line-height: 25px;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                                margin: 0 0 0 50px;
+                            }
+
+                            li::before {
+                            }
+
+                            li:last-child a {
+                                padding: 12px 19px;
+                                border: 1px solid #ffffff;
+                                border-radius: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*1660px above screen CSS starts here*/
+@media only screen and (min-width: 1660px) {
+    .header-section {
+        .inner-container {
+            .content-container {
+                padding: 80px 0 0 0;
+
+                .header-wrapper {
+                    .header-logo {
+                        h2 {
+                            font-size: 24px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            letter-spacing: unset;
+
+                            span {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .header-nav-box {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                font-size: 22px;
+                                line-height: 27px;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                                margin: 0 0 0 50px;
+                            }
+
+                            li::before {
+                            }
+
+                            li:last-child a {
+                                padding: 14px 22px;
+                                border: 1px solid #ffffff;
+                                border-radius: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*1920px above screen CSS starts here*/
+@media only screen and (min-width: 1920px) {
+    .header-section {
+        .inner-container {
+            .content-container {
+                padding: 110px 0 0 0;
+
+                .header-wrapper {
+                    .header-logo {
+                        h2 {
+                            font-size: 26px;
+                            line-height: 26px;
+                            font-weight: 500;
+                            letter-spacing: unset;
+
+                            span {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .header-nav-box {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                font-size: 24px;
+                                line-height: 29px;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                                margin: 0 0 0 50px;
+                            }
+
+                            li::before {
+                            }
+
+                            li:last-child a {
+                                padding: 14px 22px;
+                                border: 1px solid #ffffff;
+                                border-radius: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*2560px above screen CSS starts here*/
+@media only screen and (min-width: 2560px) {
+    .header-section {
+        .inner-container {
+            .content-container {
+                padding: 110px 0 0 0;
+
+                .header-wrapper {
+                    .header-logo {
+                        h2 {
+                            font-size: 28px;
+                            line-height: 28px;
+                            font-weight: 500;
+                            letter-spacing: unset;
+
+                            span {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .header-nav-box {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                font-size: 26px;
+                                line-height: 31px;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                                margin: 0 0 0 50px;
+                            }
+
+                            li::before {
+                            }
+
+                            li:last-child a {
+                                padding: 16px 24px;
+                                border: 1px solid #ffffff;
+                                border-radius: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*Below 1024px screen CSS starts here*/
+@media only screen and (max-width: 1024px) {
+    .header-section {
+        .inner-container {
+            .content-container {
+                padding: 60px 0 0 0;
+
+                .header-wrapper {
+                    .header-logo {
+                        h2 {
+                            font-size: 18px;
+                            line-height: 18px;
+                            font-weight: 500;
+                            letter-spacing: unset;
+
+                            span {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .header-nav-box {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                font-size: 16px;
+                                line-height: 22px;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                                margin: 0 0 0 37px;
+                            }
+
+                            li:last-child a {
+                                padding: 8px 14px;
+                                border: 1px solid #ffffff;
+                                border-radius: 100px;
+                            }
+                        }
+
+                        .menuBar-Container {
+                            margin: 0 0 0 25px;
+    
+                            .bar1,
+                            .bar2 {
+                                width: 28px;
+                                height: 2px;
+                                background: #ffffff;
+                                margin: 6px 0;
+                                transition: 0.4s;
+                                border-radius: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Below 768px screen CSS starts here*/
+@media only screen and (max-width: 768px) {
+    .header-section {
+        .inner-container {
+            .content-container {
+                padding: 40px 0 0 0;
+
+                .header-wrapper {
+                    .header-logo {
+                        h2 {
+                            font-size: 18px;
+                            line-height: 18px;
+                            font-weight: 500;
+                            letter-spacing: unset;
+
+                            span {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .header-nav-box {
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                font-size: 16px;
+                                line-height: 22px;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                                margin: 0 0 0 37px;
+                            }
+
+                            li:last-child a {
+                                padding: 8px 14px;
+                                border: 1px solid #ffffff;
+                                border-radius: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 2px);
+    transform: rotate(-45deg) translate(-5px, 2px);
+}
+
+.change .bar2 {
+    -webkit-transform: rotate(45deg) translate(-4px, 0px);
+    transform: rotate(45deg) translate(-4px, 0px);
+}
+
+.hamMenu-Box {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    z-index: 99;
+    
+
+    .inner-hamMenu-Box {
+        width: 100%;
+        height: 100%;
+        background: #000000;
+        opacity: 0;
+
+        .hamMenu {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                text-align: center;
+                margin: 0;
+
+                li {
+                    border-bottom: none;
+                    letter-spacing: -3px;
+                    margin: 30px 0 0 0;
+
+                    a {
+                        color: #ffffff;
+                        font-size: 60px;
+                        line-height: 60px;
+                    }
+                }
+
+                li:before {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    @keyframes fadeOut {
+        100% { opacity: 1;  }
+        0% { opacity: 0; }
+    }
+}
+
+
+
+

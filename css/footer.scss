@@ -1,0 +1,770 @@
+@import "default";
+
+.footer-section {
+    background-color: #000000;
+    
+    .inner-container {
+        .content-container {
+            padding: 100px 0 50px 0;
+
+            .row-one {
+                display: flex;
+                justify-content: space-between;
+                 
+
+                .footer-desc {
+                    width: 496px;
+                    color: #FFFFFF;
+                }
+
+                .title-box {
+                    width: 315px;
+
+                    h2 {
+                        color: #FFFFFF;
+
+                        span {
+                            font-family: $Arctic-REGV;
+                        }
+                    }
+
+                    .talk-text {
+                        margin: 22px 0 0 0;
+                        color: #FFFFFF;
+                    }
+
+                    .talk-text::after {
+                        content: "";
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../assets/images/icons/wh-down-arrow-001.png");
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        margin: 0 0 0 12px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .row-two {
+                display: flex;
+                justify-content: space-between;
+                margin: 60px 0 0 0;
+
+                .column {
+                    width: 32%;
+                    border-top: 1px solid $primaryColor;
+
+                    p {
+                        font-size: 18px;
+                        line-height: 18px;
+                        font-weight: 500px;
+                        color: #FFFFFF;
+                    }
+
+                    .title-text {
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 500px;
+                        margin: 60px 0 24px 0;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .column-one {
+                    .copyright-text {
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 500px;
+                        margin: 80px 0 0 0;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .column-three {
+                    .social-text::after {
+                        content: "";
+                        display: inline-block;
+                        width: 8px;
+                        height: 8px;
+                        background-image: url("../assets/images/icons/wh-up-arrow-001.png");
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        margin: 0 0 0 5px;
+                        color: #FFFFFF;
+                    }
+
+                    .terms-text {
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 500px;
+                        margin: 80px 0 0 0;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/*1440px above screen CSS starts here*/
+@media only screen and (min-width: 1440px) {
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 100px 0 90px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 496px;
+                    }
+
+                    .title-box {
+                        width: 474px;
+
+                        h2 {
+                        }
+
+                        .talk-text {
+                            margin: 22px 0 0 0;
+                        }
+
+                        .talk-text::after {
+                            width: 20px;
+                            height: 20px;
+                            margin: 0 0 0 12px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 50px 0 0 0;
+
+                    .column {
+                        width: 32%;
+
+                        p {
+                            font-size: 18px;
+                            line-height: 18px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 60px 0 24px 0;
+                        }
+                    }
+
+                    .column-one {
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 80px 0 0 0;
+                        }
+                    }
+
+                    .column-three {
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 8px;
+                            height: 8px;
+                            margin: 0 0 0 5px;
+                        }
+
+                        .terms-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 80px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*1660 px above screen CSS starts here*/
+@media only screen and (min-width: 1660px) {
+
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 100px 0 60px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 465px;
+                    }
+
+                    .title-box {
+                        width: 582px;
+
+                        h2 {
+                        }
+
+                        .talk-text {
+                            margin: 50px 0 0 0;
+                        }
+
+                        .talk-text::after {
+                            width: 28px;
+                            height: 28px;
+                            margin: 0 0 0 14px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 50px 0 0 0;
+
+                    .column {
+                        width: 32%;
+
+                        p {
+                            font-size: 18px;
+                            line-height: 18px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 60px 0 24px 0;
+                        }
+                    }
+
+                    .column-one {
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 80px 0 0 0;
+                        }
+                    }
+
+                    .column-three {
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 8px;
+                            height: 8px;
+                            margin: 0 0 0 5px;
+                        }
+
+                        .terms-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 80px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*1920  px above screen CSS starts here*/
+@media only screen and (min-width: 1920px) {
+
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 100px 0 80px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 540px;
+                    }
+
+                    .title-box {
+                        width: 725px;
+
+                        h2 {
+                        }
+
+                        .talk-text {
+                            margin: 60px 0 0 0;
+                        }
+
+                        .talk-text::after {
+                            width: 36px;
+                            height: 36px;
+                            margin: 0 0 0 20px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 100px 0 0 0;
+
+                    .column {
+                        width: 32%;
+
+                        p {
+                            font-size: 22px;
+                            line-height: 22px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 26px;
+                            line-height: 26px;
+                            font-weight: 500px;
+                            margin: 60px 0 24px 0;
+                        }
+                    }
+
+                    .column-one {
+                        .copyright-text {
+                            font-size: 22px;
+                            line-height: 22px;
+                            font-weight: 500px;
+                            margin: 60px 0 0 0;
+                        }
+                    }
+
+                    .column-three {
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 9px;
+                            height: 9px;
+                            margin: 0 0 0 9px;
+                        }
+
+                        .terms-text {
+                            font-size: 22px;
+                            line-height: 22px;
+                            font-weight: 500px;
+                            margin: 60px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*2560  px above screen CSS starts here*/
+@media only screen and (min-width: 2560px) {
+
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 150px 0 100px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 746px;
+                    }
+
+                    .title-box {
+                        width: 1029px;
+
+                        h2 {
+                        }
+
+                        .talk-text {
+                            margin: 100px 0 0 0;
+                        }
+
+                        .talk-text::after {
+                            width: 54px;
+                            height: 54px;
+                            margin: 0 0 0 30px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 100px 0 0 0;
+
+                    .column {
+                        width: 32%;
+
+                        p {
+                            font-size: 30px;
+                            line-height: 30px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 34px;
+                            line-height: 34px;
+                            font-weight: 500px;
+                            margin: 100px 0 50px 0;
+                        }
+                    }
+
+                    .column-one {
+                        .copyright-text {
+                            font-size: 28px;
+                            line-height: 28px;
+                            font-weight: 500px;
+                            margin: 64px 0 0 0;
+                        }
+                    }
+
+                    .column-three {
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 10px;
+                            height: 10px;
+                            margin: 0 0 0 15px;
+                        }
+
+                        .terms-text {
+                            font-size: 28px;
+                            line-height: 28px;
+                            font-weight: 500px;
+                            margin: 74px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*Below 1024px screen CSS starts here*/
+@media only screen and (max-width: 1024px) {
+
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 40px 0 40px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 225px;
+                        p {
+                            font-size: 16px;
+                            line-height: 25px;
+                        }
+                    }
+
+                    .title-box {
+                        width: 282px;
+
+                        h2 {
+                            font-size: 30px;
+                            line-height: 30px;
+                        }
+
+                        .talk-text {
+                            margin: 45px 0 0 0;
+                        }
+
+                        .talk-text::after {
+                            width: 14px;
+                            height: 14px;
+                            margin: 0 0 0 6px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 62px 0 0 0;
+
+                    .column {
+                        width: unset;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 15px;
+                            line-height: 15px;
+                            font-weight: 500px;
+                            margin: 40px 0 30px 0;
+                        }
+                    }
+
+                    .column-one {
+                        width: 193px;
+
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 35px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 234px;
+                    }
+
+                    .column-three {
+                        width: 153px;
+
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 7px;
+                            height: 7px;
+                            margin: 0 0 0 6px;
+                        }
+
+                        .terms-text {
+                            font-size: 15px;
+                            line-height: 15px;
+                            font-weight: 500px;
+                            margin: 40px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*Below 768px screen CSS starts here*/
+@media only screen and (max-width: 768px) {
+
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 10px 0 30px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 225px;
+                        p {
+                            font-size: 16px;
+                            line-height: 25px;
+                        }
+                    }
+
+                    .title-box {
+                        width: 305px;
+
+                        h2 {
+                            font-size: 26px;
+                            line-height: 26px;
+                        }
+
+                        .talk-text {
+                            margin: 29px 0 0 0;
+                            font-size: 50px;
+                            line-height: 50px;
+                            letter-spacing: -4px;
+                        }
+
+                        .talk-text::after {
+                            width: 14px;
+                            height: 14px;
+                            margin: 0 0 0 6px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin: 0;
+
+
+                    .column {
+                        width: unset;
+                        border-top: none;
+
+                        p {
+                            font-size: 15px;
+                            line-height: 19px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 15px;
+                            line-height: 15px;
+                            font-weight: 500px;
+                            margin: 40px 0 20px 0;
+                        }
+                    }
+
+                    .column-one {
+                        width: 193px;
+
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 35px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 234px;
+                    }
+
+                    .column-three {
+                        width: 100%;
+
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 7px;
+                            height: 7px;
+                            margin: 0 0 0 6px;
+                        }
+
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 20px;
+                            font-weight: 500px;
+                            margin: 40px 0 0 0;
+                        }
+
+                        .terms-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 30px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Below 360px screen CSS starts here*/
+@media only screen and (max-width: 360px) {
+
+    .footer-section {
+        .inner-container {
+            .content-container {
+                padding: 40px 0 30px 0;
+
+                .row-one {
+                    .footer-desc {
+                        width: 225px;
+                        p {
+                            font-size: 16px;
+                            line-height: 25px;
+                        }
+                    }
+
+                    .title-box {
+                        width: 282px;
+
+                        h2 {
+                            font-size: 24px;
+                            line-height: 24px;
+                        }
+
+                        .talk-text {
+                            margin: 29px 0 0 0;
+                            font-size: 50px;
+                            line-height: 50px;
+                            letter-spacing: -4px;
+                        }
+
+                        .talk-text::after {
+                            width: 14px;
+                            height: 14px;
+                            margin: 0 0 0 6px;
+                        }
+                    }
+                }
+
+                .row-two {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin: 0;
+
+
+                    .column {
+                        width: unset;
+                        border-top: none;
+
+                        p {
+                            font-size: 15px;
+                            line-height: 19px;
+                            font-weight: 500px;
+                        }
+
+                        .title-text {
+                            font-size: 15px;
+                            line-height: 15px;
+                            font-weight: 500px;
+                            margin: 40px 0 20px 0;
+                        }
+                    }
+
+                    .column-one {
+                        width: 193px;
+
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 35px 0 0 0;
+                        }
+                    }
+
+                    .column-two {
+                        width: 234px;
+                    }
+
+                    .column-three {
+                        width: 100%;
+
+                        .social-text::after {
+                            content: "";
+                            display: inline-block;
+                            width: 7px;
+                            height: 7px;
+                            margin: 0 0 0 6px;
+                        }
+
+                        .copyright-text {
+                            font-size: 16px;
+                            line-height: 20px;
+                            font-weight: 500px;
+                            margin: 40px 0 0 0;
+                        }
+
+                        .terms-text {
+                            font-size: 16px;
+                            line-height: 16px;
+                            font-weight: 500px;
+                            margin: 30px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
